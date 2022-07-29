@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Doller</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="header111">
+        <ul>
+            <li>
+                <h1 style="color:rgb(81, 83, 85); margin-top: 10px;">Discover Dollar</h1>
+            </li>
+            <li style="margin-left:300px; margin-top: 20px; width: 400px;"><input type="text" name="" id="myInput"
+                    style="width: 400px; border: 1px solid black; border-radius: 3px; height: 30px;"
+                    placeholder="Search" onkeyup="searchFun()"></li>
+            <li><a href="#contact"></a></li>
+            <li class="signin"><a href="#about"
+                    style="color:rgb(81, 83, 85); margin-top: -40px; margin-left: 1000px;">Sign In</a></li>
+        </ul>
+    </div>
+
+    <!-- 01. Header Section -->
+    <div class="header">
+        <div class="img">
+            <ul>
+                <li><a href="#home"><img src="./img/top offers.jpg"></a></li>
+                <li><a href="#news"><img src="./img/grocery.jpg"></a></li>
+                <li><a href="#contact"><img src="./img/mobiles.jpg"></a></li>
+                <li><a href="#about"><img src="./img/fashion.jpg"></a></li>
+                <li><a href="#about"><img src="./img/electronics.jpg"></a></li>
+                <li><a href="#about"><img src="./img/Home.jpg"></a></li>
+                <li><a href="#about"><img src="./img/appliences.jpg"></a></li>
+                <li><a href="#about"><img src="./img/travel.jpg"></a></li>
+                <li><a href="#about"><img src="./img/beauty.jpg"></a></li>
+            </ul>
+        </div>
+
+        <div class="name" id="myTable">
+            <div>
+                <ul style="list-style: none; margin-top: -20px">
+                    <li><a href="#home">
+                            <div class="dropdown" style="margin-top: -10px; margin-left:0px">
+                                <button class="dropbtn">Top Offers
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="fashion1.html">Grocery</a>
+                                    <a href="fashion2.html">mobiles</a>
+                                    <a href="fashion3.html">Fashion</a>
+                                    <a href="fashion3.html">Electronics</a>
+                                    <a href="fashion3.html">Home</a>
+                                    <a href="fashion3.html">Appliences</a>
+                                    <a href="fashion3.html">Travel</a>
+                                    <a href="fashion3.html">Beauty</a>
+
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#news">
+                            <div class="dropdown" style="margin-top: -10px; margin-left:50px">
+                                <button class="dropbtn">Grocery
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="grocery1.html">Bakery & Bread</a>
+                                    <a href="grocery1.html">Meat & Seafood</a>
+                                    <a href="#">Pasta & Rice</a>
+                                    <a href="#">Oils, Sauces, Salad Dressings, and Condiments</a>
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#contact">
+                            <div class="dropdown" style="margin-top: -10px; margin-left:72px">
+                                <button class="dropbtn">Mobiles
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="Mobile1.html">Nokia</a>
+                                    <a href="mobile2.html">Samsung</a>
+                                    <a href="mobile.html">Apple</a>
+                                    <a href="mobile.html">Vivo</a>
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#about">
+                            <div class="dropdown" style="margin-top: -10px; margin-left: 75px">
+                                <button class="dropbtn">Fashion
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="fashion1.html">Men's Fashion</a>
+                                    <a href="fashion2.html">Ladies</a>
+                                    <a href="fashion3.html">Kids</a>
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#about">
+                            <div class="dropdown" style="margin-top: -10px; margin-left:65px">
+                                <button class="dropbtn">Electronics
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Refrigerator</a>
+                                    <a href="#">TV</a>
+                                    <a href="#">Washing Machine</a>
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#about">
+                            <div class="dropdown" style="margin-top: -10px; margin-left:70px">
+                                <button class="dropbtn">Home
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Furniture & mattresses</a>
+                                    <a href="#">Safety Supplies & Robotics Kit</a>
+                                    <a href="#">Tools & Home Improvements</a>
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#about">
+                            <div class="dropdown" style="margin-top: -10px; margin-left:70px">
+                                <button class="dropbtn">Appliences
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Kitchen</a>
+                                    <a href="#">Daily Appliences</a>
+                                    <a href="#">Decorations</a>
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#about">
+                            <div class="dropdown" style="margin-top: -10px; margin-left:65px">
+                                <button class="dropbtn">Travel
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Aeroplane</a>
+                                    <a href="#">Trains</a>
+                                    <a href="#">Buses</a>
+                                </div>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#about">
+                            <div class="dropdown" style="margin-top: -30px; margin-left:1335px">
+                                <button class="dropbtn">Beauty
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Hair Care</a>
+                                    <a href="#">Make Up & Nails.</a>
+                                    <a href="#">Body Spray</a>
+                                </div>
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- carousel section -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="./img/carousel1.avif" style="width:100% ;height:510px;">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="./img/carousel2.avif" style="width:100%;height:510px;">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="./img/carausel3.avif" style="width:100%;height:510px;">
+
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="" onclick="currentSlide(1)"></span>
+        <span class="" onclick="currentSlide(2)"></span>
+        <span class="" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <!-- Deals Sections -->
+
+    <div class="grid-container">
+
+        <div class="item2"><a href="Deals.html">
+                <h2>Deals of the Day</h2>
+            </a></div>
+
+
+        <div class="item3" style="font-size: 50px; padding-top: 60px;">Start Selling on <br> Discover Dollars</div>
+        <div class="item4" style="font-size: 50px; padding-top: 60px;">Top rated premium quality | <br>Discover Dollar
+            brands &<br> more..
+        </div>
+
+    </div>
+
+
+
+
+    <!-- breadcrub seaction -->
+
+    <ul class="breadcrumb">
+        <li>
+            <h3>
+                <p
+                    style="font-size: 22px;width:70%; text-align: justify; opacity: 0.9; font-family: 'Kanit', sans-serif; margin-top: 0px; letter-spacing: 1.5;">
+                    Discover
+                    Dollar E-commerce website allows
+                    people to buy and
+                    sell physical goods, services, and digital products over the internet rather than at a
+                    brick-and-mortar location. Through an e-commerce website, a business can process orders, accept
+                    payments, manage shipping and logistics, and provide customer service.It’s tough to imagine daily
+                    life without e-commerce. We order food, clothes, and furniture; we register for classes and other
+                    online services; we download books, music, and movies; and so much more. E-commerce has taken root &
+                    it is very easy to use and easy to understand for the user.
+                    <img src="./img/breaddcrumb.jpg"
+                        style="margin-left: 1100px; width:30%; margin-top:-300px; height: 220px;">
+                </p>
+
+            </h3>
+        </li>
+
+
+    </ul>
+
+
+    <!--  -->
+    <div class="fashionheader">
+        <h1>Our Products & Services</h1>
+    </div>
+    <div class="atharva">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="./img/top offers.jpg" width="100%" height="300vh">
+
+                    <p>Best Offers</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./img/grocery.jpg" width="100%" height="300vh">
+
+                    <p>Grocery</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./img/mobiles.jpg" width="100%" height="300vh">
+
+                    <p>Mobiles</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./img/fashion.jpg" width="100%" height="300vh">
+
+                    <p>Fashions</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./img/electronics.jpg" width="100%" height="300vh">
+
+                    <p>Electronics</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./img/Home.jpg" width="100%" height="300vh">
+
+                    <p>Home</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./img/appliences.jpg" width="100%" height="300vh">
+
+                    <p>Appliences</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./img/travel.jpg" width="100%" height="300vh">
+
+                    <p>Travel</p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- footer -->
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src=" index.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        const searchFun = () => {
+            let filter = document.getElementById('myInput').value.toUpperCase();
+
+            let myTable = document.getElementById('myTable');
+
+            let a = myTable.getElementByTagName('a');
+
+            for (var i = 0; i < a.length; i++) {
+                let td = a[i].getElementByTagName('td')[0];
+            }
+
+        }
+    </script>
+</body>
+
+</html>
